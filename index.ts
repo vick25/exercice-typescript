@@ -26,6 +26,10 @@ function getFirstElement<T>(arr: T[]): T {
 console.log(getFirstElement([1, 2, 3])); // 1
 console.log(getFirstElement(['a', 'b', 'c'])); // 'a'
 
+function reverseString(input: string): string {
+    return input.split("").reverse().join("");
+}
+
 // Écrivez une fonction containsWord qui vérifie si une chaîne contient un mot donné.
 function containsWord(phrase: string, mot: string): boolean {
     return phrase.includes(mot);
