@@ -24,5 +24,5 @@ function toUpperCaseString (input:string):string {
 
 
 function reverseString(input: string): string {
-    return input.split('').reverse().join('');
+    return input.split("").reverse().join("");
 }
